@@ -1,0 +1,35 @@
+.blok {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bloczek {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 3px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.kafelek:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.kafelek a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+}
