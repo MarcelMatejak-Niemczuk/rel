@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+h2{
+    text-align:center;
+}
+
 .bloczek {
     width: 150px;
     height: 150px;
@@ -33,3 +37,4 @@
     height: 100%;
     line-height: 150px;
 }
+
